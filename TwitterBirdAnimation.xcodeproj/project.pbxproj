@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9D3802C194809CC004E9CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3802B194809CC004E9CD2 /* AppDelegate.swift */; };
+		F9D3802E194809CC004E9CD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D3802D194809CC004E9CD2 /* Images.xcassets */; };
+		F9D3803A194809CC004E9CD2 /* TwitterBirdAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D38039194809CC004E9CD2 /* TwitterBirdAnimationTests.swift */; };
+		F9D3804419480BF0004E9CD2 /* twitterscreen.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F9D3804319480BF0004E9CD2 /* twitterscreen.PNG */; };
+		F9D3804619480C93004E9CD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D3804519480C93004E9CD2 /* QuartzCore.framework */; };
+		F9D3804819480E4B004E9CD2 /* twitter logo mask.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D3804719480E4B004E9CD2 /* twitter logo mask.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D38034194809CC004E9CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D3801E194809CC004E9CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D38025194809CC004E9CD2;
+			remoteInfo = TwitterBirdAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9D38026194809CC004E9CD2 /* TwitterBirdAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterBirdAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D3802A194809CC004E9CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D3802B194809CC004E9CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9D3802D194809CC004E9CD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9D38033194809CC004E9CD2 /* TwitterBirdAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterBirdAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D38038194809CC004E9CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D38039194809CC004E9CD2 /* TwitterBirdAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterBirdAnimationTests.swift; sourceTree = "<group>"; };
+		F9D3804319480BF0004E9CD2 /* twitterscreen.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterscreen.PNG; sourceTree = "<group>"; };
+		F9D3804519480C93004E9CD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F9D3804719480E4B004E9CD2 /* twitter logo mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter logo mask.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D38023194809CC004E9CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D3804619480C93004E9CD2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D38030194809CC004E9CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D3801D194809CC004E9CD2 = {
+			isa = PBXGroup;
+			children = (
+				F9D3804519480C93004E9CD2 /* QuartzCore.framework */,
+				F9D38028194809CC004E9CD2 /* TwitterBirdAnimation */,
+				F9D38036194809CC004E9CD2 /* TwitterBirdAnimationTests */,
+				F9D38027194809CC004E9CD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D38027194809CC004E9CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D38026194809CC004E9CD2 /* TwitterBirdAnimation.app */,
+				F9D38033194809CC004E9CD2 /* TwitterBirdAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D38028194809CC004E9CD2 /* TwitterBirdAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F9D3802B194809CC004E9CD2 /* AppDelegate.swift */,
+				F9D3804319480BF0004E9CD2 /* twitterscreen.PNG */,
+				F9D3804719480E4B004E9CD2 /* twitter logo mask.png */,
+				F9D3802D194809CC004E9CD2 /* Images.xcassets */,
+				F9D38029194809CC004E9CD2 /* Supporting Files */,
+			);
+			path = TwitterBirdAnimation;
+			sourceTree = "<group>";
+		};
+		F9D38029194809CC004E9CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D3802A194809CC004E9CD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D38036194809CC004E9CD2 /* TwitterBirdAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D38039194809CC004E9CD2 /* TwitterBirdAnimationTests.swift */,
+				F9D38037194809CC004E9CD2 /* Supporting Files */,
+			);
+			path = TwitterBirdAnimationTests;
+			sourceTree = "<group>";
+		};
+		F9D38037194809CC004E9CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D38038194809CC004E9CD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D38025194809CC004E9CD2 /* TwitterBirdAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D3803D194809CD004E9CD2 /* Build configuration list for PBXNativeTarget "TwitterBirdAnimation" */;
+			buildPhases = (
+				F9D38022194809CC004E9CD2 /* Sources */,
+				F9D38023194809CC004E9CD2 /* Frameworks */,
+				F9D38024194809CC004E9CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterBirdAnimation;
+			productName = TwitterBirdAnimation;
+			productReference = F9D38026194809CC004E9CD2 /* TwitterBirdAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9D38032194809CC004E9CD2 /* TwitterBirdAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D38040194809CD004E9CD2 /* Build configuration list for PBXNativeTarget "TwitterBirdAnimationTests" */;
+			buildPhases = (
+				F9D3802F194809CC004E9CD2 /* Sources */,
+				F9D38030194809CC004E9CD2 /* Frameworks */,
+				F9D38031194809CC004E9CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D38035194809CC004E9CD2 /* PBXTargetDependency */,
+			);
+			name = TwitterBirdAnimationTests;
+			productName = TwitterBirdAnimationTests;
+			productReference = F9D38033194809CC004E9CD2 /* TwitterBirdAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D3801E194809CC004E9CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rounak Jain";
+				TargetAttributes = {
+					F9D38025194809CC004E9CD2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F9D38032194809CC004E9CD2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F9D38025194809CC004E9CD2;
+					};
+				};
+			};
+			buildConfigurationList = F9D38021194809CC004E9CD2 /* Build configuration list for PBXProject "TwitterBirdAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9D3801D194809CC004E9CD2;
+			productRefGroup = F9D38027194809CC004E9CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D38025194809CC004E9CD2 /* TwitterBirdAnimation */,
+				F9D38032194809CC004E9CD2 /* TwitterBirdAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D38024194809CC004E9CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D3802E194809CC004E9CD2 /* Images.xcassets in Resources */,
+				F9D3804419480BF0004E9CD2 /* twitterscreen.PNG in Resources */,
+				F9D3804819480E4B004E9CD2 /* twitter logo mask.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D38031194809CC004E9CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D38022194809CC004E9CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D3802C194809CC004E9CD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D3802F194809CC004E9CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D3803A194809CC004E9CD2 /* TwitterBirdAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D38035194809CC004E9CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D38025194809CC004E9CD2 /* TwitterBirdAnimation */;
+			targetProxy = F9D38034194809CC004E9CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9D3803B194809CC004E9CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9D3803C194809CC004E9CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D3803E194809CD004E9CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TwitterBirdAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9D3803F194809CD004E9CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TwitterBirdAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9D38041194809CD004E9CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwitterBirdAnimation.app/TwitterBirdAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwitterBirdAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F9D38042194809CD004E9CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwitterBirdAnimation.app/TwitterBirdAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwitterBirdAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D38021194809CC004E9CD2 /* Build configuration list for PBXProject "TwitterBirdAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D3803B194809CC004E9CD2 /* Debug */,
+				F9D3803C194809CC004E9CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D3803D194809CD004E9CD2 /* Build configuration list for PBXNativeTarget "TwitterBirdAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D3803E194809CD004E9CD2 /* Debug */,
+				F9D3803F194809CD004E9CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D38040194809CD004E9CD2 /* Build configuration list for PBXNativeTarget "TwitterBirdAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D38041194809CD004E9CD2 /* Debug */,
+				F9D38042194809CD004E9CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9D3801E194809CC004E9CD2 /* Project object */;
+}
