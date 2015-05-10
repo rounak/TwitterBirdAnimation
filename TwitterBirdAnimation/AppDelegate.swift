@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         animateMask()
 
         // Override point for customization after application launch.
-        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.backgroundColor = UIColor(red: 70/255, green: 154/255, blue: 233/255, alpha: 1)
         self.window!.makeKeyAndVisible()
         UIApplication.sharedApplication().statusBarHidden = true
         return true
