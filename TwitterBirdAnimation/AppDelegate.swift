@@ -63,17 +63,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func animateMask() {
-        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
+        let keyFrameAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
         keyFrameAnimation.delegate = self
         keyFrameAnimation.duration = 1
         keyFrameAnimation.beginTime = CACurrentMediaTime() + 1 //add delay of 1 second
-        let initalBounds = NSValue(CGRect: mask!.bounds)
-        let secondBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 90, height: 90))
-        let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 1500, height: 1500))
-        keyFrameAnimation.values = [initalBounds, secondBounds, finalBounds]
+        keyFrameAnimation.values = [1.0, 0.9, 20.0] //scale percentages 1.0 = original size
         keyFrameAnimation.keyTimes = [0, 0.3, 1]
         keyFrameAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut), CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)]
-        self.mask!.addAnimation(keyFrameAnimation, forKey: "bounds")
+        self.mask!.addAnimation(keyFrameAnimation, forKey: "transform.scale")
     }
 
     override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
