@@ -76,7 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.mask!.addAnimation(keyFrameAnimation, forKey: "bounds")
     }
 
-    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         self.imageView!.layer.mask = nil //remove mask when animation completes
     }
 
